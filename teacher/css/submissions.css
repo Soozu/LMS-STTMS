@@ -1,0 +1,311 @@
+/* Modern Submissions Page Styling */
+.main-content {
+    padding: 2rem;
+    background: #f5f5f5;
+}
+
+/* Page Header */
+.page-header {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-content h2 {
+    color: #2c3e50;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.8rem;
+}
+
+.assignment-meta {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.assignment-details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.type-badge {
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.type-badge.assignment {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.type-badge.activity {
+    background: #f3e5f5;
+    color: #9c27b0;
+}
+
+.due-date {
+    color: #64748b;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Submission Cards */
+.submissions-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.submission-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.submission-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.submission-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.student-info h4 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.lrn {
+    color: #64748b;
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 0.3rem;
+}
+
+.submission-meta {
+    text-align: right;
+}
+
+.timestamp {
+    color: #64748b;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.late-badge {
+    background: #fff5f5;
+    color: #e53e3e;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+/* Grading Section */
+.grading-section {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin: 1rem 0;
+}
+
+.grade-form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-group input {
+    width: 80px;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.max-score {
+    color: #64748b;
+}
+
+.btn-save {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-save:hover {
+    background: #2563eb;
+}
+
+/* Comments Section */
+.comments-section {
+    margin-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1.5rem;
+}
+
+.comments-section h5 {
+    color: #2c3e50;
+    margin: 0 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-count {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.comment-form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.comment-form textarea {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    resize: vertical;
+    min-height: 60px;
+}
+
+.btn-submit {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-submit:hover {
+    background: #2563eb;
+}
+
+/* Comments Display */
+.comment {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.commenter {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.comment-timestamp {
+    color: #64748b;
+    font-size: 0.85rem;
+}
+
+.teacher-comment {
+    background: #f0f9ff;
+    border-left: 3px solid #3b82f6;
+}
+
+.student-comment {
+    background: #f8fafc;
+    border-left: 3px solid #64748b;
+}
+
+/* File Attachments */
+.attached-files {
+    margin-top: 1rem;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: #f8fafc;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.file-item a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.file-item a:hover {
+    color: #3b82f6;
+}
+
+/* No Submission State */
+.no-submission-message {
+    text-align: center;
+    padding: 2rem;
+    color: #64748b;
+}
+
+.overdue-warning {
+    color: #e53e3e;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .submission-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .submission-meta {
+        text-align: left;
+    }
+
+    .grade-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-group {
+        justify-content: space-between;
+    }
+} 

@@ -1,0 +1,188 @@
+/* Main content styles */
+.main-content {
+    margin-left: 250px;
+    margin-top: 60px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+/* Page header */
+.page-header {
+    margin-bottom: 30px;
+}
+
+.page-header h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 5px;
+}
+
+.page-header p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Schedule container */
+.schedule-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Schedule navigation */
+.schedule-nav {
+    display: flex;
+    background: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.day-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.day-btn:hover {
+    background: #e9ecef;
+}
+
+.day-btn.active {
+    background: #8B0000;
+    color: white;
+}
+
+/* Schedule content */
+.schedule-day {
+    display: none;
+    padding: 20px;
+}
+
+.schedule-day.active {
+    display: block;
+}
+
+.schedule-day h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 20px;
+}
+
+/* Class cards */
+.class-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.class-card {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #8B0000;
+}
+
+.class-time {
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    font-size: 14px;
+    color: #8B0000;
+    font-weight: 500;
+}
+
+.class-info {
+    flex: 1;
+}
+
+.class-info h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.subject-code {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px;
+}
+
+.class-details {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.teacher, .room {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.class-details i {
+    color: #8B0000;
+    font-size: 14px;
+}
+
+/* No classes state */
+.no-classes {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+}
+
+.no-classes i {
+    font-size: 32px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.no-classes p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+
+    .schedule-nav {
+        flex-wrap: wrap;
+    }
+
+    .day-btn {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .class-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .class-time {
+        min-width: auto;
+    }
+
+    .class-details {
+        flex-direction: column;
+        gap: 5px;
+    }
+} 

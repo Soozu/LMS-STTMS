@@ -1,0 +1,233 @@
+/* Assignments Page Styles */
+.assignments-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.assignments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.assignments-filter {
+    display: flex;
+    gap: 1rem;
+}
+
+.assignments-filter select {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    min-width: 150px;
+}
+
+.assignments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.assignment-card {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.assignment-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 120px;
+}
+
+.status-badge {
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status-badge.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.submitted {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-badge.graded {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.due-date, .submission-date, .grade {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.assignment-content {
+    flex-grow: 1;
+}
+
+.assignment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.assignment-header h3 {
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.subject-tag {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.assignment-description {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.assignment-meta {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.assignment-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.assignment-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 140px;
+}
+
+.btn-submit, .btn-view, .btn-feedback {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.btn-submit {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #6B0000;
+}
+
+.btn-view {
+    background-color: #f8f9fa;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.btn-view:hover {
+    background-color: #e9ecef;
+}
+
+.btn-feedback {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+
+.btn-feedback:hover {
+    background-color: #bbdefb;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .assignments-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .assignments-filter {
+        flex-direction: column;
+    }
+
+    .assignments-filter select {
+        width: 100%;
+    }
+
+    .assignment-card {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .assignment-status {
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: auto;
+    }
+
+    .assignment-header {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
+    .assignment-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .assignment-actions {
+        flex-direction: row;
+        justify-content: stretch;
+    }
+
+    .btn-submit, .btn-view, .btn-feedback {
+        flex: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .assignment-actions {
+        flex-direction: column;
+    }
+
+    .assignment-card {
+        font-size: 0.9rem;
+    }
+
+    .assignment-header h3 {
+        font-size: 1rem;
+    }
+} 

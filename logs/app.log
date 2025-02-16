@@ -1,0 +1,1111 @@
+[09-Jan-2025 14:26:47 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:26:47 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:27:06 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:27:06 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:27:06 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:27:06 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:31:00 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:31:00 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:31:05 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:31:07 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:31:10 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:31:10 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:31:18 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:31:18 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:32:14 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:32:14 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:32:54 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:32:54 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:33:27 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:33:28 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:33:28 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:33:29 Asia/Manila] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\LMS-STMA\admin\includes\header.php on line 95
+[09-Jan-2025 14:40:33 Asia/Manila] Page: 13, Offset: 240, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:33 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:33 Asia/Manila] Fetched Logs: 10
+[09-Jan-2025 14:40:37 Asia/Manila] Page: 1, Offset: 0, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:37 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:37 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:40:39 Asia/Manila] Page: 1, Offset: 0, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:39 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:39 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:40:41 Asia/Manila] Page: 2, Offset: 20, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:41 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:41 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:40:43 Asia/Manila] Page: 3, Offset: 40, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:43 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:43 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:40:45 Asia/Manila] Page: 5, Offset: 80, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:45 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:45 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:40:49 Asia/Manila] Page: 13, Offset: 240, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:49 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:49 Asia/Manila] Fetched Logs: 10
+[09-Jan-2025 14:40:51 Asia/Manila] Page: 13, Offset: 240, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:40:51 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:40:51 Asia/Manila] Fetched Logs: 10
+[09-Jan-2025 14:41:50 Asia/Manila] Page: 13, Offset: 240, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:41:50 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:41:50 Asia/Manila] Fetched Logs: 10
+[09-Jan-2025 14:41:53 Asia/Manila] Page: 1, Offset: 0, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:41:53 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:41:53 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:41:55 Asia/Manila] Page: 2, Offset: 20, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:41:55 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:41:55 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:41:57 Asia/Manila] Page: 13, Offset: 240, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:41:57 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:41:57 Asia/Manila] Fetched Logs: 10
+[09-Jan-2025 14:42:45 Asia/Manila] Page: 13, Offset: 240, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:42:45 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:42:45 Asia/Manila] Fetched Logs: 10
+[09-Jan-2025 14:42:50 Asia/Manila] Page: 12, Offset: 220, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:42:50 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:42:50 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:42:53 Asia/Manila] Page: 11, Offset: 200, Total Pages: 13, Items Per Page: 20
+[09-Jan-2025 14:42:53 Asia/Manila] Total Logs: 250
+[09-Jan-2025 14:42:53 Asia/Manila] Fetched Logs: 20
+[09-Jan-2025 14:46:14 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[09-Jan-2025 14:46:27 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:47:07 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:47:46 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 104
+[09-Jan-2025 14:48:56 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:48:57 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:48:57 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:48:57 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:48:58 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:49:32 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:51:31 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:51:32 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[09-Jan-2025 14:51:32 Asia/Manila] PHP Warning:  Undefined array key "log_type" in C:\xampp\htdocs\LMS-STMA\admin\system_logs.php on line 100
+[29-Jan-2025 21:13:41 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:14:47 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:16:04 Asia/Manila] PHP Fatal error:  Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\LMS-STMA\admin\add_student.php:95
+Stack trace:
+#0 C:\xampp\htdocs\LMS-STMA\admin\add_student.php(95): PDO->rollBack()
+#1 {main}
+  thrown in C:\xampp\htdocs\LMS-STMA\admin\add_student.php on line 95
+[29-Jan-2025 21:17:27 Asia/Manila] Error in add_student.php: A student with this LRN or email already exists
+[29-Jan-2025 21:17:27 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c010777@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:19:21 Asia/Manila] PHP Warning:  Undefined array key "grade_level" in C:\xampp\htdocs\LMS-STMA\admin\add_student.php on line 74
+[29-Jan-2025 21:19:22 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-ac9abacedd2sm6391170a12.17 - gsmtp
+
+[29-Jan-2025 21:19:22 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[29-Jan-2025 21:19:23 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [49.144.1.89]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[29-Jan-2025 21:19:23 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[29-Jan-2025 21:19:23 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[29-Jan-2025 21:19:23 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[29-Jan-2025 21:19:24 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [49.144.1.89]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[29-Jan-2025 21:19:24 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[29-Jan-2025 21:19:24 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[29-Jan-2025 21:19:24 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[29-Jan-2025 21:19:24 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[29-Jan-2025 21:19:24 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<jeanelleegalasinao@gmail.com>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-ac9abacedd2sm6391170a12.17 - gsmtp
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<c01077007@gmail.com>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-ac9abacedd2sm6391170a12.17 - gsmtp
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: DATA
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-ac9abacedd2sm6391170a12.17 - gsmtp
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Date: Wed, 29 Jan 2025 21:19:21 +0800
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: To: Christiaaaaan Paaaacifico <c01077007@gmail.com>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: From: STMA LMS Admin <jeanelleegalasinao@gmail.com>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Subject: Your STMA LMS Account Credentials
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <UpioEPINHm9PqJDFpDxHakyeY0mP82n0fM5EqnIxw@localhost>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:  boundary="b1=_UpioEPINHm9PqJDFpDxHakyeY0mP82n0fM5EqnIxw"
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_UpioEPINHm9PqJDFpDxHakyeY0mP82n0fM5EqnIxw
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Welcome to STMA LMS
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Your credentials:
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: LRN (Username): 345645663562
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Password: 6DmTlJsqM9
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Please change your password after first login.
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_UpioEPINHm9PqJDFpDxHakyeY0mP82n0fM5EqnIxw
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='background-color: #8B0000; color: white; padding: 20px; text-align: center;'>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <h2 style='margin: 0;'>Welcome to STMA LMS</h2>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='padding: 20px; background-color: #f9f9f9;'>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>Dear <strong>Christiaaaaan Paaaacifico</strong>,</p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>Your account has been created in the STMA Learning Management System. Here are your login credentials:</p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <div style='background-color: white; padding: 15px; border-radius: 5px; margin: 20px 0;'>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <p style='margin: 5px 0;'><strong>LRN (Username):</strong> 345645663562</p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <p style='margin: 5px 0;'><strong>Password:</strong> 6DmTlJsqM9</p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 </div>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Important:</strong></p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <ul>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>Please change your password after your first login</li>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>Keep your credentials secure and do not share them with anyone</li>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>If you have any issues logging in, please contact your administrator</li>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 </ul>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>You can access the LMS at: <a href='http://localhost/LMS-STMA/login.php'>STMA LMS Login</a></p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='text-align: center; padding: 20px; color: #666;'>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>This is an automated message, please do not reply to this email.</p>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:         </div>
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_UpioEPINHm9PqJDFpDxHakyeY0mP82n0fM5EqnIxw--
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:19:25 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: .
+
+[29-Jan-2025 21:19:26 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1738156766 41be03b00d2f7-ac9abacedd2sm6391170a12.17 - gsmtp
+
+[29-Jan-2025 21:19:26 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[29-Jan-2025 21:19:27 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-ac9abacedd2sm6391170a12.17 - gsmtp
+
+[29-Jan-2025 21:19:27 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:24:59 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:25:56 Asia/Manila] PHP Warning:  Undefined array key "grade_level" in C:\xampp\htdocs\LMS-STMA\admin\add_student.php on line 94
+[29-Jan-2025 21:25:56 Asia/Manila] PHP Warning:  Undefined array key "grade_level" in C:\xampp\htdocs\LMS-STMA\admin\add_student.php on line 111
+[29-Jan-2025 21:25:59 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da3ea3c8fsm99260985ad.69 - gsmtp
+
+[29-Jan-2025 21:25:59 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[29-Jan-2025 21:25:59 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [49.144.1.89]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[29-Jan-2025 21:25:59 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[29-Jan-2025 21:25:59 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[29-Jan-2025 21:25:59 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [49.144.1.89]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<jeanelleegalasinao@gmail.com>
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da3ea3c8fsm99260985ad.69 - gsmtp
+
+[29-Jan-2025 21:26:00 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<c01077007@gmail.com>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da3ea3c8fsm99260985ad.69 - gsmtp
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: DATA
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da3ea3c8fsm99260985ad.69 - gsmtp
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Date: Wed, 29 Jan 2025 21:25:56 +0800
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: To: christiaaan paacifico <c01077007@gmail.com>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: From: STMA LMS Admin <jeanelleegalasinao@gmail.com>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Subject: Your STMA LMS Account Credentials
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <S23KFaghT99ZB1n0TIf4ptJEZfekVsGbweEJULnj8@localhost>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:  boundary="b1=_S23KFaghT99ZB1n0TIf4ptJEZfekVsGbweEJULnj8"
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_S23KFaghT99ZB1n0TIf4ptJEZfekVsGbweEJULnj8
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Welcome to STMA LMS
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Your credentials:
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: LRN (Username): 312312353453
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Password: s*^Ts789Aa
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Please change your password after first login.
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_S23KFaghT99ZB1n0TIf4ptJEZfekVsGbweEJULnj8
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='background-color: #8B0000; color: white; padding: 20px; text-align: center;'>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <h2 style='margin: 0;'>Welcome to STMA LMS</h2>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='padding: 20px; background-color: #f9f9f9;'>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>Dear <strong>christiaaan paacifico</strong>,</p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>Your account has been created in the STMA Learning Management System. Here are your login credentials:</p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <div style='background-color: white; padding: 15px; border-radius: 5px; margin: 20px 0;'>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <p style='margin: 5px 0;'><strong>LRN (Username):</strong> 312312353453</p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <p style='margin: 5px 0;'><strong>Password:</strong> s*^Ts789Aa</p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 </div>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Important:</strong></p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <ul>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>Please change your password after your first login</li>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>Keep your credentials secure and do not share them with anyone</li>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>If you have any issues logging in, please contact your administrator</li>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 </ul>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>You can access the LMS at: <a href='http://localhost/LMS-STMA/login.php'>STMA LMS Login</a></p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='text-align: center; padding: 20px; color: #666;'>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>This is an automated message, please do not reply to this email.</p>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:         </div>
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_S23KFaghT99ZB1n0TIf4ptJEZfekVsGbweEJULnj8--
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: .
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1738157161 d9443c01a7336-21da3ea3c8fsm99260985ad.69 - gsmtp
+
+[29-Jan-2025 21:26:01 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[29-Jan-2025 21:26:02 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da3ea3c8fsm99260985ad.69 - gsmtp
+
+[29-Jan-2025 21:26:02 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:27:32 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:28:21 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:28:31 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:29:34 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:30:48 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[29-Jan-2025 21:31:55 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21da3ea31cdsm99369675ad.67 - gsmtp
+
+[29-Jan-2025 21:31:55 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[29-Jan-2025 21:31:56 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [49.144.1.89]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[29-Jan-2025 21:31:56 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[29-Jan-2025 21:31:56 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[29-Jan-2025 21:31:56 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[29-Jan-2025 21:31:56 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [49.144.1.89]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[29-Jan-2025 21:31:56 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<jeanelleegalasinao@gmail.com>
+
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21da3ea31cdsm99369675ad.67 - gsmtp
+
+[29-Jan-2025 21:31:57 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<c01077007@gmail.com>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21da3ea31cdsm99369675ad.67 - gsmtp
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: DATA
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21da3ea31cdsm99369675ad.67 - gsmtp
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Date: Wed, 29 Jan 2025 21:31:55 +0800
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: To: christian pacifico <c01077007@gmail.com>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: From: STMA LMS Admin <jeanelleegalasinao@gmail.com>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Subject: Your STMA LMS Account Credentials
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <QlwiowTN0Dy9lKusKZ2SY8JZK9Ov3qP76TlEdJvMQtQ@localhost>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:  boundary="b1=_QlwiowTN0Dy9lKusKZ2SY8JZK9Ov3qP76TlEdJvMQtQ"
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_QlwiowTN0Dy9lKusKZ2SY8JZK9Ov3qP76TlEdJvMQtQ
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Welcome to STMA LMS
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Your credentials:
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: LRN (Username): 123123456656
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Password: Beem7K1vuF
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Please change your password after first login.
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_QlwiowTN0Dy9lKusKZ2SY8JZK9Ov3qP76TlEdJvMQtQ
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='background-color: #8B0000; color: white; padding: 20px; text-align: center;'>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <h2 style='margin: 0;'>Welcome to STMA LMS</h2>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='padding: 20px; background-color: #f9f9f9;'>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>Dear <strong>christian pacifico</strong>,</p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>Your account has been created in the STMA Learning Management System. Here are your login credentials:</p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <div style='background-color: white; padding: 15px; border-radius: 5px; margin: 20px 0;'>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <p style='margin: 5px 0;'><strong>LRN (Username):</strong> 123123456656</p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <p style='margin: 5px 0;'><strong>Password:</strong> Beem7K1vuF</p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 </div>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Important:</strong></p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <ul>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>Please change your password after your first login</li>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>Keep your credentials secure and do not share them with anyone</li>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                     <li>If you have any issues logging in, please contact your administrator</li>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 </ul>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>You can access the LMS at: <a href='http://localhost/LMS-STMA/login.php'>STMA LMS Login</a></p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             <div style='text-align: center; padding: 20px; color: #666;'>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:                 <p>This is an automated message, please do not reply to this email.</p>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:             </div>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER:         </div>
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: --b1=_QlwiowTN0Dy9lKusKZ2SY8JZK9Ov3qP76TlEdJvMQtQ--
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: 
+
+[29-Jan-2025 21:31:58 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: .
+
+[29-Jan-2025 21:31:59 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1738157518 d9443c01a7336-21da3ea31cdsm99369675ad.67 - gsmtp
+
+[29-Jan-2025 21:31:59 Asia/Manila] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[29-Jan-2025 21:31:59 Asia/Manila] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21da3ea31cdsm99369675ad.67 - gsmtp
+
+[29-Jan-2025 21:31:59 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[08-Feb-2025 17:30:59 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+
+[08-Feb-2025 17:32:53 Asia/Manila] First student data: Array
+(
+    [id] => 44
+    [user_id] => 53
+    [lrn] => 091234567812
+    [first_name] => edrian
+    [last_name] => makuba
+    [email] => c0107w77@gmail.com
+    [grade_level] => 1
+    [gender] => 
+    [birth_date] => 
+    [contact_number] => 
+    [address] => 
+    [guardian_name] => 
+    [guardian_contact] => 
+    [section_id] => 1
+    [username] => 091234567812
+    [status] => active
+    [section_name] => St. Maria Goretti
+)
+

@@ -1,0 +1,272 @@
+/* Main Layout */
+.main-content {
+    margin-left: 250px;
+    margin-top: 60px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+/* Page Header */
+.page-header {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.header-content h2 {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.class-meta {
+    color: #666;
+    margin: 5px 0 15px 0;
+    font-size: 15px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #8B0000;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #660000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    background: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.btn-secondary:hover {
+    background: #e9ecef;
+    transform: translateY(-2px);
+}
+
+/* Overview Cards */
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.overview-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+}
+
+.overview-card:hover {
+    transform: translateY(-3px);
+}
+
+.overview-card i {
+    font-size: 24px;
+    color: #8B0000;
+    background: rgba(139, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.overview-info h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.overview-info p {
+    margin: 5px 0 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Content Grid */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.content-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.count, .view-all {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.view-all:hover {
+    color: #8B0000;
+}
+
+/* Student List */
+.student-list {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.student-item {
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.student-item:hover {
+    background-color: #f8f9fa;
+}
+
+.student-info h4 {
+    margin: 0;
+    color: #333;
+    font-size: 15px;
+}
+
+.lrn {
+    color: #666;
+    font-size: 13px;
+    display: block;
+    margin-top: 3px;
+}
+
+.submission-count {
+    font-size: 13px;
+    color: #8B0000;
+    background: rgba(139, 0, 0, 0.1);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Assignment List */
+.assignment-list {
+    padding: 10px;
+}
+
+.assignment-item {
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.assignment-item:hover {
+    background-color: #f8f9fa;
+}
+
+.assignment-info h4 {
+    margin: 0;
+    color: #333;
+    font-size: 15px;
+}
+
+.due-date {
+    color: #666;
+    font-size: 13px;
+    display: block;
+    margin-top: 3px;
+}
+
+/* Scrollbar Styles */
+.student-list::-webkit-scrollbar,
+.assignment-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.student-list::-webkit-scrollbar-track,
+.assignment-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.student-list::-webkit-scrollbar-thumb,
+.assignment-list::-webkit-scrollbar-thumb {
+    background: #8B0000;
+    border-radius: 3px;
+}
+
+.student-list::-webkit-scrollbar-thumb:hover,
+.assignment-list::-webkit-scrollbar-thumb:hover {
+    background: #660000;
+}
+
+/* Empty State */
+.no-data {
+    padding: 30px;
+    text-align: center;
+    color: #666;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header-actions {
+        flex-direction: column;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+} 

@@ -1,0 +1,206 @@
+/* Modern Archived Students Page Styles */
+:root {
+    --primary-color: #8b0000;
+    --secondary-color: #f5efd6;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --border-color: #e0e0e0;
+    --success-color: #2e7d32;
+    --danger-color: #c62828;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem;
+    margin-left: 260px;
+    background: var(--secondary-color);
+    min-height: 100vh;
+}
+
+/* Page Header */
+.page-header {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1.8rem;
+}
+
+.page-header h2 i {
+    color: var(--primary-color);
+}
+
+.page-header .btn-secondary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.page-header .btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Table Styles */
+.table-responsive {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.data-table th {
+    background-color: #f8f9fa;
+    color: var(--text-primary);
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.data-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.data-table tr:last-child td {
+    border-bottom: none;
+}
+
+.data-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Student Info Styling */
+.data-table td:nth-child(2) {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+/* Grade & Section Styling */
+.data-table td:nth-child(3) {
+    color: var(--text-primary);
+}
+
+.data-table td:nth-child(3) small {
+    display: block;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+/* Archive Info Styling */
+.data-table td:nth-child(4),
+.data-table td:nth-child(5) {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Actions Column */
+.actions {
+    text-align: center;
+    white-space: nowrap;
+    width: 80px;
+}
+
+.btn-icon.restore {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-icon.restore:hover {
+    color: #2196F3;
+    background-color: #e3f2fd;
+    border-color: #2196F3;
+}
+
+.btn-icon.restore i {
+    font-size: 14px;
+}
+
+/* Empty State */
+.no-records {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-secondary);
+}
+
+.no-records i {
+    font-size: 3rem;
+    color: var(--border-color);
+    margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .main-content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    .page-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        padding: 1rem;
+    }
+
+    .data-table {
+        font-size: 0.9rem;
+    }
+} 

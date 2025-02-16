@@ -1,0 +1,16 @@
+// Column Headers (Row 1):
+A: LRN*
+B: First Name*
+C: Last Name*
+D: Email
+E: Grade Level
+F: Section Name
+G: Gender
+H: Birth Date
+I: Contact Number
+J: Address
+K: Guardian Name
+L: Guardian Contact
+
+// Example Row (Row 2):
+123456789012 | John | Doe | john.doe@email.com | 7 | St. Maria Goretti | male | 2010-01-01 | 09123456789 | Sample Address | Jane Doe | 09987654321 

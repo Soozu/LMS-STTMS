@@ -1,0 +1,302 @@
+/* Header styles */
+.dashboard-header {
+    background: #880000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Left section */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sidebar-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.school-info h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.school-info p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+/* Right section */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Header actions */
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    position: relative;
+    padding: 8px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.action-btn:hover {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #8B0000;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    min-width: 15px;
+    text-align: center;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    display: none;
+    margin-top: 5px;
+}
+
+.action-btn:hover .dropdown-menu,
+.user-menu:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-header h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.dropdown-header a {
+    font-size: 12px;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+/* Notification styles */
+.notification-list,
+.message-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.notification-item,
+.message-item {
+    display: flex;
+    padding: 10px 15px;
+    text-decoration: none;
+    color:  black;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.notification-item:hover,
+.message-item:hover {
+    background-color: #f8f9fa;
+}
+
+.notification-item.unread,
+.message-item.unread {
+    background-color: #fff5f5;
+}
+
+.notification-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 50%;
+    color: #8B0000;
+}
+
+.message-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* User menu */
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.user-menu:hover {
+    background-color: #afa9a9;
+    border-radius: 4px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info .user-name {
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    color: #ffffff;
+}
+
+.user-info .user-details {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* User dropdown */
+.user-menu .dropdown-menu {
+    min-width: 200px;
+}
+
+.user-menu .dropdown-menu a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+.user-menu .dropdown-menu a:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-divider {
+    height: 1px;
+    background-color: #eee;
+    margin: 5px 0;
+}
+
+.logout {
+    color: #dc3545 !important;
+}
+
+.logout:hover {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-actions {
+        display: none;
+    }
+    
+    .school-info h1 {
+        font-size: 16px;
+    }
+    
+    .school-info p {
+        display: none;
+    }
+
+    .user-info .user-details {
+        display: none;
+    }
+} 
+
+/* Empty state styles */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    text-align: center;
+    color: #666;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.empty-state i {
+    font-size: 24px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Scrollbar styles */
+.notification-list::-webkit-scrollbar,
+.message-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.notification-list::-webkit-scrollbar-track,
+.message-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.notification-list::-webkit-scrollbar-thumb,
+.message-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.notification-list::-webkit-scrollbar-thumb:hover,
+.message-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,446 @@
+/* Modern System Logs Styles */
+:root {
+    --primary-color: #8b0000;
+    --secondary-color: #f5efd6;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --border-color: #e0e0e0;
+    --success-color: #2e7d32;
+    --danger-color: #c62828;
+}
+
+.main-content {
+    padding: 2rem;
+    margin-left: 260px;
+    background: var(--secondary-color);
+    min-height: 100vh;
+}
+
+/* Page Header */
+.page-header {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1.8rem;
+}
+
+.page-header h2 i {
+    color: var(--primary-color);
+}
+
+.header-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Search and Filter */
+.search-box {
+    position: relative;
+    min-width: 300px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #f8f9fa;
+}
+
+.search-box i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+}
+
+#filterAction {
+    padding: 0.8rem 2.5rem 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #f8f9fa;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23666' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    min-width: 160px;
+}
+
+/* Logs Table */
+.logs-container {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+.logs-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.logs-table th,
+.logs-table td {
+    padding: 1rem;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.log-time {
+    white-space: nowrap;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.log-user {
+    white-space: nowrap;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.username {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.user-type {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.log-action {
+    white-space: nowrap;
+}
+
+.action-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.action-badge i {
+    font-size: 0.9rem;
+}
+
+.log-description {
+    color: var(--text-primary);
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+/* Action badge colors */
+.action-badge.create {
+    background: rgba(46, 125, 50, 0.1);
+    color: #2e7d32;
+}
+
+.action-badge.update {
+    background: rgba(25, 118, 210, 0.1);
+    color: #1976d2;
+}
+
+.action-badge.delete {
+    background: rgba(198, 40, 40, 0.1);
+    color: #c62828;
+}
+
+.action-badge.restore {
+    background: rgba(156, 39, 176, 0.1);
+    color: #9c27b0;
+}
+
+.action-badge.login {
+    background: rgba(0, 150, 136, 0.1);
+    color: #009688;
+}
+
+.action-badge.logout {
+    background: rgba(255, 152, 0, 0.1);
+    color: #ff9800;
+}
+
+.action-badge.info {
+    background: rgba(97, 97, 97, 0.1);
+    color: #616161;
+}
+
+/* Empty State */
+.no-logs {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin-top: 1rem;
+}
+
+.no-logs i {
+    font-size: 2rem;
+    color: var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.no-logs p {
+    color: var(--text-secondary);
+    margin: 0.5rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+
+    .page-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-actions {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .search-box input {
+        width: 100%;
+    }
+
+    .logs-table {
+        display: block;
+        overflow-x: auto;
+    }
+} 
+
+/* Pagination improvements */
+.page-ellipsis {
+    padding: 0.5rem;
+    color: var(--text-secondary);
+}
+
+/* Action badge improvements */
+.action-badge {
+    text-transform: capitalize;
+}
+
+.action-badge i {
+    font-size: 0.9rem;
+}
+
+/* Table improvements */
+.logs-table td {
+    padding: 1.2rem 1rem;
+}
+
+.log-description {
+    line-height: 1.4;
+}
+
+/* Add styles for archived logs */
+.archived-log {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.archived-log td {
+    color: var(--text-secondary);
+}
+
+.archived-log .action-badge {
+    opacity: 0.8;
+}
+
+/* Empty state styles */
+.empty-state {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state i {
+    font-size: 3rem;
+    color: var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.empty-state p {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    margin: 0.5rem 0;
+}
+
+.empty-state-description {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Reset button styles */
+.reset-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reset-button:hover {
+    background: #6b0000;
+}
+
+/* Additional action badge styles */
+.action-badge.restore {
+    background: rgba(156, 39, 176, 0.1);
+    color: #9c27b0;
+}
+
+.action-badge.login {
+    background: rgba(0, 150, 136, 0.1);
+    color: #009688;
+}
+
+.action-badge.logout {
+    background: rgba(255, 152, 0, 0.1);
+    color: #ff9800;
+}
+
+/* Update the filter function to handle hyphenated action names */ 
+
+/* Date picker styles */
+.date-picker-container {
+    position: relative;
+    min-width: 200px;
+}
+
+.date-picker-container input {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #f8f9fa;
+}
+
+.date-picker-container i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+}
+
+/* Daily summary styles */
+.daily-summary {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.summary-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    min-width: 200px;
+}
+
+.summary-card i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.summary-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-count {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.summary-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* Flatpickr customization */
+.flatpickr-day.selected {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.flatpickr-day.today {
+    border-color: var(--primary-color);
+} 
+
+/* View Archive Button styles */
+.view-archive-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.view-archive-btn:hover {
+    background: #6b0000;
+    color: white;
+}
+
+.view-archive-btn i {
+    font-size: 1rem;
+}
+
+/* Responsive styles for the button */
+@media (max-width: 768px) {
+    .view-archive-btn {
+        width: 100%;
+        justify-content: center;
+    }
+} 

@@ -1,0 +1,598 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #8b0000 0%, #5c0000 100%);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.school-name h1 {
+    color: #8b0000;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.school-name p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Main container layout */
+.main-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* Login container styles */
+.login-container {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.login-form h2 {
+    color: #8b0000;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #8b0000;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(139, 0, 0, 0.1);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background: #6b0000;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.forgot-password {
+    color: #8b0000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Guide container styles */
+.guide-container {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.guide-container h2 {
+    color: #8b0000;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.guide-section {
+    margin-bottom: 1.5rem;
+}
+
+.guide-section h3 {
+    color: #333;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.guide-section ul {
+    list-style-type: none;
+}
+
+.guide-section li {
+    color: #555;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.guide-section li::before {
+    content: "•";
+    color: #8b0000;
+    position: absolute;
+    left: 0;
+}
+
+/* Alert styles */
+.alert {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.alert-error {
+    background-color: #fff2f2;
+    border: 1px solid #ffcdd2;
+    color: #c62828;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .school-name h1 {
+        font-size: 1.2rem;
+    }
+    
+    .school-name p {
+        font-size: 0.8rem;
+    }
+} 
+
+/* Add this to the existing CSS file */
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.password-toggle:hover {
+    color: #8b0000;
+}
+
+.form-group input[type="password"],
+.form-group input[type="text"] {
+    padding-right: 40px; /* Make room for the toggle button */
+} 
+
+/* Add these animation styles to your existing CSS file */
+
+/* Loading spinner animation */
+.loading-spinner {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #8b0000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Success checkmark animation */
+.success-checkmark {
+    display: none;
+    color: #4CAF50;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Login button loading state */
+.login-btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.login-btn.loading::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-20px); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+} 
+
+/* Add these teacher-specific animations to your existing CSS */
+
+/* Teacher login success animation */
+.teacher-success-animation {
+    display: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.teacher-icon {
+    font-size: 48px;
+    color: #8b0000;
+    margin-bottom: 15px;
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.welcome-message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Teacher icon animation */
+@keyframes teacherIconAnimation {
+    0% { 
+        opacity: 0;
+        transform: scale(0.5) rotate(-180deg);
+    }
+    50% { 
+        transform: scale(1.2) rotate(0deg);
+    }
+    100% { 
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+/* Welcome text animation */
+@keyframes welcomeTextAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animations */
+.teacher-icon.animate {
+    animation: teacherIconAnimation 1s ease forwards;
+}
+
+.welcome-message.animate {
+    animation: welcomeTextAnimation 0.8s ease forwards 0.5s;
+}
+
+/* Loading animation enhancement */
+.login-btn.teacher-loading::after {
+    border-top-color: #8b0000;
+} 
+
+/* Add these logout animation styles */
+
+/* Logout overlay */
+.logout-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(139, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+.logout-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Logout animation container */
+.logout-animation {
+    text-align: center;
+    color: white;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.logout-overlay.show .logout-animation {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Logout icon */
+.logout-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.logout-icon i {
+    animation: logoutSpin 1s ease-out;
+}
+
+@keyframes logoutSpin {
+    0% { transform: rotate(0deg) scale(0.5); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Logout message */
+.logout-message {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.logout-submessage {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Responsive styles for logout animation */
+@media (max-width: 768px) {
+    .logout-message {
+        font-size: 1.2rem;
+    }
+    
+    .logout-submessage {
+        font-size: 0.9rem;
+    }
+    
+    .logout-icon {
+        font-size: 36px;
+    }
+}
+
+/* Success message animation for logout */
+.logout-success-message {
+    display: none;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+    from { 
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+} 
+
+/* Add these modal styles to your existing CSS */
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+.modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Logout Confirmation Modal */
+.logout-modal {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overlay.show .logout-modal {
+    transform: translateY(0);
+}
+
+/* Modal Icon */
+.modal-icon {
+    font-size: 48px;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+/* Modal Title */
+.modal-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Modal Message */
+.modal-message {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.modal-btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    font-weight: 500;
+}
+
+.confirm-btn {
+    background: #8b0000;
+    color: white;
+}
+
+.confirm-btn:hover {
+    background: #6b0000;
+}
+
+.cancel-btn {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.cancel-btn:hover {
+    background: #d0d0d0;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+    .logout-modal {
+        padding: 20px;
+    }
+
+    .modal-icon {
+        font-size: 36px;
+    }
+
+    .modal-title {
+        font-size: 1.2rem;
+    }
+
+    .modal-message {
+        font-size: 0.9rem;
+    }
+
+    .modal-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+} 

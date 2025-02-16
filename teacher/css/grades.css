@@ -1,0 +1,551 @@
+/* Main Layout */
+.main-content {
+    margin-left: 250px;
+    margin-top: 60px;
+    padding: 25px;
+    background: #f5f5f5;
+}
+
+/* Page Header */
+.page-header {
+    background: linear-gradient(135deg, #8B0000 0%, #660000 100%);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h2 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Class Selector */
+.class-selector select {
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 300px;
+}
+
+.class-selector select:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.class-selector select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.class-selector option {
+    background: white;
+    color: #333;
+}
+
+/* Class Info */
+.class-info {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-details h3 {
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.class-meta {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.class-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary {
+    background: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #660000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.2);
+}
+
+/* Grades Table */
+.grades-table-container {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    overflow-x: auto;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.grades-table th {
+    background: #f8f9fa;
+    padding: 15px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+    position: sticky;
+    top: 0;
+}
+
+.grades-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.student-info {
+    min-width: 200px;
+    position: sticky;
+    left: 0;
+    background: white;
+}
+
+.student-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.student-lrn {
+    font-size: 12px;
+    color: #666;
+}
+
+.assignment-grade {
+    min-width: 120px;
+}
+
+.assignment-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.assignment-title {
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.max-score {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Grades and Status */
+.score {
+    font-weight: 500;
+}
+
+.score.passing {
+    color: #28a745;
+}
+
+.score.failing {
+    color: #dc3545;
+}
+
+.pending {
+    color: #ffc107;
+    font-size: 13px;
+}
+
+.no-submission {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.final-grade {
+    font-weight: 600;
+    min-width: 100px;
+    background: #f8f9fa;
+    position: sticky;
+    right: 0;
+}
+
+.average {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.average.passing {
+    color: #28a745;
+}
+
+.average.failing {
+    color: #dc3545;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.empty-state i {
+    font-size: 48px;
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.empty-state h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.empty-state p {
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.btn-create {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-create:hover {
+    background: #660000;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .page-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .class-selector select {
+        min-width: 100%;
+    }
+
+    .class-info {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .class-actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Overdue Status Styles */
+.assignment-grade.overdue {
+    background: rgba(220, 53, 69, 0.05);
+}
+
+.overdue-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.overdue-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    background: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.overdue-label i {
+    font-size: 14px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Days overdue badge */
+.days-overdue {
+    font-size: 11px;
+    color: #dc3545;
+    opacity: 0.8;
+}
+
+/* Overdue input styles */
+.overdue-status .grade-input-group {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.overdue-status .grade-input {
+    border-color: #dc3545;
+}
+
+.overdue-status .grade-input:focus {
+    box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.2);
+}
+
+.grade-input {
+    width: 60px;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.grade-input:focus {
+    outline: none;
+    border-color: #8B0000;
+    box-shadow: 0 0 0 2px rgba(139, 0, 0, 0.1);
+}
+
+.grade-input::-webkit-inner-spin-button,
+.grade-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.save-grade {
+    background: none;
+    border: none;
+    color: #8B0000;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.save-grade:hover {
+    background: rgba(139, 0, 0, 0.1);
+}
+
+.save-grade i {
+    font-size: 14px;
+}
+
+/* Grade Input Group */
+.grade-input-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+/* Grade Input Container */
+.grade-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.grade-input-container .pending {
+    margin-bottom: 2px;
+}
+
+/* Loading Animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fa-spinner {
+    animation: spin 1s linear infinite;
+}
+
+/* Hover effect for grade input */
+.grade-input-group {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.grade-input-group:hover {
+    opacity: 1;
+}
+
+/* Status indicators */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-badge.submitted {
+    background: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+}
+
+.status-badge.overdue {
+    background: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+
+/* Grade editing styles */
+.grade-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.edit-grade {
+    background: none;
+    border: none;
+    color: #8B0000;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.grade-display:hover .edit-grade {
+    opacity: 1;
+}
+
+.edit-grade:hover {
+    background: rgba(139, 0, 0, 0.1);
+}
+
+.cancel-edit {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.cancel-edit:hover {
+    background: rgba(220, 53, 69, 0.1);
+}
+
+.grade-edit {
+    margin-top: 5px;
+}
+
+/* Assignment Type Styles */
+.assignment-type {
+    margin-bottom: 4px;
+}
+
+.type-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.type-badge.assignment {
+    background: rgba(0, 123, 255, 0.1);
+    color: #0056b3;
+}
+
+.type-badge.activity {
+    background: rgba(40, 167, 69, 0.1);
+    color: #28a745;
+}
+
+.type-badge::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.type-badge.assignment::before {
+    content: "\f15c"; /* File icon */
+}
+
+.type-badge.activity::before {
+    content: "\f5da"; /* Tasks icon */
+}
+
+/* Update assignment header spacing */
+.assignment-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 4px;
+}
+
+.assignment-title {
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    font-size: 13px;
+} 

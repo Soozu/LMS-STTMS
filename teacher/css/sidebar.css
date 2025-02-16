@@ -1,0 +1,226 @@
+/* Modern Sidebar Styles */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background: linear-gradient(180deg, #8b0000 0%, #660000 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Header */
+.sidebar-header {
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-logo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+    padding: 1rem;
+    height: calc(100vh - 140px);
+    overflow-y: auto;
+}
+
+.sidebar-nav::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar-nav::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li {
+    margin: 8px 0;
+    opacity: 1;
+}
+
+/* Animation for menu items */
+.animate-items li {
+    opacity: 0;
+    animation: slideIn 0.3s ease forwards;
+    animation-delay: calc(var(--item-index) * 0.1s);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Modern Link Styles */
+.sidebar-nav a {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover Effect */
+.sidebar-nav a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(5px);
+}
+
+/* Active State */
+.sidebar-nav li.active {
+    position: relative;
+}
+
+.sidebar-nav li.active a {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+/* Active indicator */
+.sidebar-nav li.active::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 70%;
+    background: #fff;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Icon Styles */
+.sidebar-nav i {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+/* Text Label */
+.sidebar-nav span {
+    font-size: 0.95rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* Collapsed State */
+.sidebar.collapsed {
+    width: 70px;
+}
+
+.sidebar.collapsed .logo-wrapper {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+}
+
+.sidebar.collapsed .sidebar-nav a {
+    padding: 12px;
+    justify-content: center;
+}
+
+.sidebar.collapsed .sidebar-nav span {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-nav i {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    .sidebar-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .sidebar-overlay.active {
+        display: block;
+        opacity: 1;
+    }
+
+    .sidebar-nav li.active::before {
+        left: 0;
+        width: 3px;
+    }
+}
+
+/* Hover effects and transitions */
+.sidebar-nav a:hover i {
+    transform: scale(1.1);
+}
+
+.sidebar-nav li.active a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.02);
+}
+
+/* Separator lines */
+.sidebar-nav li:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+} 

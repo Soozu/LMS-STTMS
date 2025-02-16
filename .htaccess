@@ -1,0 +1,31 @@
+# PHP Settings
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_value memory_limit 256M
+
+# Default index file
+DirectoryIndex login.php
+
+# Basic security
+Options -Indexes
+
+# Allow all access by default
+Order Allow,Deny
+Allow from all
+
+# Basic file type handling
+<FilesMatch "\.(pdf|doc|docx|ppt|pptx)$">
+    Header set Content-Type "application/octet-stream"
+    Header set Content-Disposition "inline"
+</FilesMatch>
+
+# Special handling for PDF files
+<FilesMatch "\.pdf$">
+    Header set Content-Type "application/pdf"
+</FilesMatch>
+
+AddType application/pdf .pdf
+AddType application/octet-stream .pdf
+AddType application/javascript .mjs
